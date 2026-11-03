@@ -1,30 +1,73 @@
-<h1>Buenas</h1>
-<h2>Prueba de cosas :v</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CraftPlay777</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #111;
+      color: #eee;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .foto {
+      display: block;
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      border: 3px solid #4caf50;
+    }
+    h1 { text-align: center; margin: 0 0 20px; }
+    h2 { margin-top: 36px; }
+    .proyecto {
+      background: #1c1c1c;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+    }
+    .proyecto h3 { margin: 0 0 4px; }
+    .proyecto p { margin: 0 0 6px; }
+    a { color: #6ab7ff; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="foto" src="me.png" alt="Foto de CraftPlay777">
+    <h1>CraftPlay777</h1>
 
-<p>------------------------------</p>
-<!--Hostias de h-->
-<h3>Hostias de {h1-h6}</h3>
-<h1>Hola</h1>
-<h2>Hola</h2>
-<h3>Hola</h3>
-<h4>Hola</h4>
-<h5>Hola</h5>
-<h6>Hola</h6>
+    <p>
+      Soy un tremendo exitoso que no tiene nada mejor que hacer que hacer cualquier pavada que se le ocurre sin siquiera haber terminado la anterior :v
+    </p>
 
-<p>------------------------------</p>
-<!--Hostias de br-->
-<h3>Hostias de {br}</h3>
-<p>
-  Buenas noches <br>
-  Voten <br>
-  Por <br>
-  Pedro Sanchez
-</p>
-<p>------------------------------</p>
-<!--hostias de a img-->
-<h3>Hostias de {img}</h3>
-<p>
-  base: <br>
-  {} = <> <br>
-  {img src="imagen.png" alt="Descripción de la imagen" height=150} 
-</p>
+    <h2>Proyectos actuales</h2>
+
+    <div class="proyecto">
+      <h3>AuraClient</h3>
+      <p>Un cliente para Luanti basado en la v5.17.0 para Android.</p>
+      <a href="https://github.com/CraftPlay777/AuraClient/">github.com/CraftPlay777/AuraClient</a>
+    </div>
+
+    <div class="proyecto">
+      <h3>Jps</h3>
+      <p>App de mapa simple para Android.</p>
+      <a href="https://github.com/CraftPlay777/Jps/">github.com/CraftPlay777/Jps</a>
+    </div>
+
+    <div class="proyecto">
+      <h3>Jew</h3>
+      <p>Navegador en desarrollo para Android vía WebView.</p>
+      <a href="https://github.com/CraftPlay777/Jew">github.com/CraftPlay777/Jew</a>
+    </div>
+  </main>
+</body>
+</html>
